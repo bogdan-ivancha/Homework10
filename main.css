@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* html, body {
+  height: 100%;
+} */
+body{
+  background-color: black;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 862px;
+  height: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url(img/stadium.jpg); */
+  background: linear-gradient(to right, rgba(165, 0, 0, 0.6), rgba(165, 0, 0, 0.7), rgba(165, 0, 0, 0.8), rgba(165, 0, 0, 0.9)), url(img/stadium.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:space-around;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.team {
+  width: 40px;
+  margin: 10px;
+  font-family:  Arial Black bold;
+}
+hr {
+  width: 300px;direction: none;
+  margin-left: 0;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-weight: 650;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+}
+li {
+  list-style-type: none;
+}
+span {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 55px;
+  margin-top: -40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+span:hover {
+  color: orange;
+}
+.group {
+  flex-basis: 40%;
+}
