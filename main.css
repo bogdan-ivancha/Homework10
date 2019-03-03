@@ -10,7 +10,6 @@ body{
 .container {
   width: 862px;
   height: 1000px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(to right, rgba(165, 0, 0, 0.6), rgba(165, 0, 0, 0.7), rgba(165, 0, 0, 0.8), rgba(165, 0, 0, 0.9)), url(img/stadium.jpg) no-repeat;
@@ -21,25 +20,24 @@ body{
 }
 .team {
   width: 30px;
+  height: 30px;
   margin: 10px;
   font-family:  Arial Black bold;
 }
 h2 {
   color: white;
   text-align: center;
-  font-weight: 650;
   margin-top: 20px;
   border-bottom: 1px solid white;
 }
 li {
   list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
 }
 span {
   color: white;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 55px;
-  margin-top: -40px;
+  margin-top: 15px;
   font-weight: 600;
 }
 .group {
